@@ -10,6 +10,9 @@ export default class ChromeBoisDomain extends Component {
      * function that has been provided and is already imported
      * (`drawChromeBoiAtCoords` expects two arguments, an x and a y coordinate)
      */
+    let xCord = event.target.x
+      let yCord = event.target.y
+      drawChromeBoiAtCoords(x, y)
   }
   
   /* TODO: Create an event handler which, when fired, invokes the provided
